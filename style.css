@@ -1,0 +1,163 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #f3f3f3;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    background: linear-gradient(to right, #ff7eb3, #ff758c);
+    color: white;
+    padding: 25px 10px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  nav a {
+    color: blueviolet;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #ffe066;
+  }
+  
+  /* Section Styles */
+  section {
+    margin: 25px 0;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+  }
+  
+  section:hover {
+    transform: translateY(-4px);
+  }
+  
+  section h2 {
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: inline-block;
+  }
+  
+  /* Custom background colors for each section */
+  #about {
+    background-color: #ffddde;
+  }
+  
+  #about h2 {
+    background-color: #a45bf1;
+  }
+  
+  #education {
+    background-color: #d0f4de;
+  }
+  
+  #education h2 {
+    background-color: #06d6a0;
+  }
+  
+  #skills {
+    background-color: #e0f0ff;
+  }
+  
+  #skills h2 {
+    background-color: #118ab2;
+  }
+  
+  #projects {
+    background-color: #ffe0ac;
+  }
+  
+  #projects h2 {
+    background-color: #ef476f;
+  }
+  
+  #hobbies {
+    background-color: #d5cfff;
+  }
+  
+  #hobbies h2 {
+    background-color: #8e7dff;
+  }
+  
+  #certifications {
+    background-color: #fef9c7;
+  }
+  
+  #certifications h2 {
+    background-color: #ffd166;
+  }
+  
+  #achievements {
+    background-color: #cdf0ea;
+  }
+  
+  #achievements h2 {
+    background-color: #00b4d8;
+  }
+  
+  #contact {
+    background-color: #f3d5ff;
+  }
+  
+  #contact h2 {
+    background-color: #c77dff;
+  }
+  
+  ul {
+    list-style-type: square;
+    margin-left: 20px;
+  }
+  
+  .project {
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    border-left: 4px solid #333;
+    border-radius: 6px;
+  }
+  
+  /* Contact Links */
+  #contact a {
+    color: #7b2cbf;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #contact a:hover {
+    color: #5a189a;
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #555;
+  }
